@@ -9,6 +9,9 @@ const embed = new Discord.MessageEmbed()
 .setFooter(`Requsted by ${message.author.username}`)
 .setColor(0xe69e26)
 message.author.send(embed);
+const embed2 = new Discord.MessageEmbed()
+.setDescription('Please Check Your Dm \n\n If you didnt resive any message please allow this permission')
+.setImage('https://a.top4top.io/p_16497yea61.png')
 }
 
 module.exports.config = {
