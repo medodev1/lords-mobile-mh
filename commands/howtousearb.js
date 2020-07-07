@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 const embed = new Discord.MessageEmbed()
-.setTitle('كيفيه تشغيل بوت الصيدس')
+.setTitle('كيفيه تشغيل بوت الصيد')
 .setDescription('** اول شئ العلامه الي تشغل البوت هي ? لازم تستخدمها قبل اسم اي وحش \n\n ثاني شي عشان تعرف الوحوش الي موجوده فالبوت اكتب ?a \n\n ثالث شي اعمل نفس الي بالصوره مع تغيير اسم الوحش**')
 .setTimestamp()
 .setFooter(`Requsted by ${message.author.username}`)
