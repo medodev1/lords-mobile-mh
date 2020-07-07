@@ -16,5 +16,5 @@ name: "ArbHelp",
 description: "say ArbHelp",
 usage: "?ArbHelp",
 accessableby: "members",
-aliases: ['arbhelp']
+aliases: ['arbhelp' , 'a' , 'A' ,'Arabhelp']
 }

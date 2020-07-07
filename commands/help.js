@@ -16,5 +16,5 @@ name: "help",
 description: "say help",
 usage: "?help",
 accessableby: "members",
-aliases: []
+aliases: ['h']
 }

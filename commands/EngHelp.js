@@ -16,5 +16,5 @@ name: "EngHelp",
 description: "say EngHelp",
 usage: "?EngHelp",
 accessableby: "members",
-aliases: ['enghelp']
+aliases: ['enghelp' , 'E' , 'e']
 }
