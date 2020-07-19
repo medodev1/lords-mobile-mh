@@ -18,5 +18,5 @@ name: "bonappeti",
 description: "say Bon Appeti",
 usage: "?Bon Appeti",
 accessableby: "Members",
-aliases: ["BonAppeti","الساحره"]
+aliases: ["BonAppeti","الساحره" , "الساحرة"]
 }
