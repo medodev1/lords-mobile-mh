@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('Gargantuag')
 .setDescription('To Defete Gargantua You Can Use Magic Heros')
-.setImage('https://b.top4top.io/p_1661a346u1.jpg')
+.setImage('https://j.top4top.io/p_16610dv8j1.png')
 .setFooter(`Requsted by ${message.author.username}`)
 .setColor(0xff8400)
 
