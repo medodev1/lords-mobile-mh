@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('Hardrox')
+.setTitle('هاردروكس')
 .setDescription('To Defete Hardrox You Can Use Magic Heros')
 .setImage('https://f.top4top.io/p_1644l08k11.jpg')
 .setFooter(`Requsted by ${message.author.username}`)

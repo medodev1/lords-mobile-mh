@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('Terrorthorn')
+.setTitle('شوكة الرعب')
 .setDescription('To Defete Terrorthorn You Can Use AGI Heros')
 .setImage('https://a.top4top.io/p_1644keq7k1.png')
 .setFooter(`Requsted by ${message.author.username}`)

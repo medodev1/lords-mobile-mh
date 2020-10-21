@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('Queen Bee')
+.setTitle('ملكة النحل')
 .setDescription('To Defete Queen Bee You Can Use AGI Heros')
 .setImage('https://h.top4top.io/p_16441kpbl9.png')
 .setFooter(`Requsted by ${message.author.username}`)

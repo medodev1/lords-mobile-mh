@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('BlackWing')
+.setTitle('جناح الثلج')
 .setDescription('To Defete BlackWing You Can Use AGI Heros')
 .setImage('https://l.top4top.io/p_1644fr2if1.png')
 .setFooter(`Requsted by ${message.author.username}`)

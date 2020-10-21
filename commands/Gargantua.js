@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('Gargantuag')
+.setTitle('العملاق الاعور')
 .setDescription('To Defete Gargantua You Can Use Magic Heros')
 .setImage('https://j.top4top.io/p_16610dv8j1.png')
 .setFooter(`Requsted by ${message.author.username}`)

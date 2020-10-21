@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('Jade Wyrm')
+.setTitle(' تنين اليشم')
 .setDescription('To Defete Jade Wyrm You Can Use Magic Heros')
 .setImage('https://g.top4top.io/p_16444xykm1.jpg')
 .setFooter(`Requsted by ${message.author.username}`)

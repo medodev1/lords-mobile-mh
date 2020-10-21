@@ -3,20 +3,20 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('جناح الثلج')
-.setDescription('To Defete Frostwing You Can Use AGI Heros')
-.setImage('https://b.top4top.io/p_1644qyv1b3.png')
+.setTitle('البومة')
+.setDescription('To Defete HootClaw You Can Use Magic Heros')
+.setImage('https://c.top4top.io/p_175559avc1.jpg')
 .setFooter(`Requsted by ${message.author.username}`)
-.setColor(0x90a08e)
+.setColor(0x19e9b6)
 
     message.channel.send(embed);
 
 }
 
 module.exports.config = {
-name: "Frostwing",
-description: "say Frostwing",
-usage: "?Frostwing",
+name: "Hootclaw",
+description: "say 1",
+usage: "?1",
 accessableby: "Members",
-aliases: ["frostwing","جناح"]
+aliases: ["البومة" , "البومه"]
 }

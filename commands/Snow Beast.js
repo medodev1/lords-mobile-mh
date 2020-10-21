@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('Snow Beast')
+.setTitle('وحش الثلج')
 .setDescription('To Defete Snow Beast You Can Use AGI Heros')
 .setImage('https://i.top4top.io/p_1644zyzmh1.jpg')
 .setFooter(`Requsted by ${message.author.username}`)

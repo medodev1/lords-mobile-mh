@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('Noceros')
+.setTitle('نوسيروس')
 .setDescription('To Defete Noceros You Can Use Magic Heros')
 .setImage('https://l.top4top.io/p_1644trd051.jpg')
 .setFooter(`Requsted by ${message.author.username}`)

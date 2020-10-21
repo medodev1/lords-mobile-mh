@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('Voodoo Shaman')
+.setTitle('الكاهن فودو')
 .setDescription('To Defete Voodoo Shaman You Can Use AGI Heros')
 .setImage('https://c.top4top.io/p_1644qknw43.png')
 .setFooter(`Requsted by ${message.author.username}`)

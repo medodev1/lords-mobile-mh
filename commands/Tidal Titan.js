@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('Tidal Titan')
+.setTitle('العملاق تيدال')
 .setDescription('To Defete Tidal Titan You Can Use Magic Heros')
 .setImage('https://b.top4top.io/p_16440wasu2.png')
 .setFooter(`Requsted by ${message.author.username}`)
