@@ -8,9 +8,9 @@ module.exports.run = async (bot, message, args) => {
         const msg = await message.channel.send('🏓 Pinging...').then(msg => msg.delete({timeout: 2000}));
 
         const embed = new Discord.MessageEmbed()
-        .setColor(process.env.COLOR)
+        .setColor(0xf6ff00)
         .setTitle('🏓 Pong!')
-        .setDescription(`Bot ping is **${Math.floor(msg.createdTimestamp - message.createdTimestamp)} ms** \nYour ping is **${Math.round(bot.ws.ping)} ms**`);
+        .setDescription(`Your ping is **${Math.floor(msg.createdTimestamp - message.createdTimestamp)} ms** \n\nBot ping is **${Math.round(bot.ws.ping)} ms**`);
 
         message.channel.send(embed);
     
