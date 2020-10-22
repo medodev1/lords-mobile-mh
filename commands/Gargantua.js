@@ -6,7 +6,7 @@ let embed = new Discord.MessageEmbed()
 .setTitle('العملاق الاعور')
 .setDescription('لهزيمه العملاق اللاعور يجب استخدام ابطال الذكاء')
 .setImage('https://j.top4top.io/p_16610dv8j1.png')
-.setFooter(`Requsted by ${message.author.username}`)
+.setFooter(`بطلب من ${message.author.username}`)
 .setColor(0xff8400)
 
 let MessageEmbed = await message.channel.send(embed)

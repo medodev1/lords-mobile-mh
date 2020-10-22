@@ -6,7 +6,7 @@ let embed = new Discord.MessageEmbed()
 .setTitle('ساحرة الشر ')
 .setDescription('لهزيمه ساحره الشر يجب استخدام ابطال البراعه')
 .setImage('https://a.top4top.io/p_16447gxk62.png')
-.setFooter(`Requsted by ${message.author.username}`)
+.setFooter(`بطلب من ${message.author.username}`)
 .setColor(0x12ff00)
 
 let MessageEmbed = await message.channel.send(embed)
