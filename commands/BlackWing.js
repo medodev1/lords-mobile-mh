@@ -3,19 +3,19 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('جناح الثلج')
-.setDescription('To Defete BlackWing You Can Use AGI Heros')
+.setTitle('تنين الظلام')
+.setDescription('لهزيمه تنين الظلام يجب استخدام ابطال البراعه')
 .setImage('https://l.top4top.io/p_1644fr2if1.png')
 .setFooter(`Requsted by ${message.author.username}`)
 .setColor(0x111111)
-    message.channel.send(embed);
-
+let MessageEmbed = await message.channel.send(embed)
+MessageEmbed.react('✅')
 }
 
 module.exports.config = {
 name: "blackwing",
-description: "say BlackWing",
-usage: "?BlackWing",
+description: "يظهر لك افضل الابطال لصيد تنين الظلام",
+usage: "-BlackWing",
 accessableby: "Members",
 aliases: ["BlackWing","تنين"]
 }

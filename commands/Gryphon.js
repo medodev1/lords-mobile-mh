@@ -4,19 +4,18 @@ const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('العنقاء')
-.setDescription('To Defete Gryphon You Can Use AGI Heros')
+.setDescription('لهزيمه العنقاء يجب استخدام ابطال البراعه')
 .setImage('https://k.top4top.io/p_16442jogq1.png')
 .setFooter(`Requsted by ${message.author.username}`)
 .setColor(0x8c6239)
-
-    message.channel.send(embed);
-
+let MessageEmbed = await message.channel.send(embed)
+MessageEmbed.react('✅')
 }
 
 module.exports.config = {
 name: "gryphon",
-description: "say gryphon",
-usage: "?gryphon",
+description: "يظهر لك افضل الابطال لصيد العنقاء",
+usage: "-gryphon",
 accessableby: "Members",
 aliases: ["Gryphon","العنقاء"]
 }

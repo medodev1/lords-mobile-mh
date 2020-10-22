@@ -4,18 +4,19 @@ const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('ملكة النحل')
-.setDescription('To Defete Queen Bee You Can Use AGI Heros')
+.setDescription('لهزيمه ملكه النحل يجب استخدام ابطال البراعه')
 .setImage('https://h.top4top.io/p_16441kpbl9.png')
 .setFooter(`Requsted by ${message.author.username}`)
 .setColor(0xfbe000)
-    message.channel.send(embed);
+let MessageEmbed = await message.channel.send(embed)
+MessageEmbed.react('✅')
 
 }
 
 module.exports.config = {
 name: "QueenBee",
-description: "say Queen Bee",
-usage: "?Queen Bee",
+description: "يظهر لك افضل الابطال لصيد ملكه النحل",
+usage: "-QueenBee",
 accessableby: "Members",
-aliases: ["queenbee","النحله"]
+aliases: ["queenbee","النحله","ملكه"]
 }

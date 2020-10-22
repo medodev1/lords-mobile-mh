@@ -4,18 +4,18 @@ const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('الكاهن فودو')
-.setDescription('To Defete Voodoo Shaman You Can Use AGI Heros')
+.setDescription('لهزيمه الكاهن فودو يجب استخدام ابطال البراعه')
 .setImage('https://c.top4top.io/p_1644qknw43.png')
 .setFooter(`Requsted by ${message.author.username}`)
 .setColor(0x36cf44)
-    message.channel.send(embed);
-
+let MessageEmbed = await message.channel.send(embed)
+MessageEmbed.react('✅')
 }
 
 module.exports.config = {
 name: "VoodooShaman",
-description: "say Voodoo Shaman",
-usage: "?Snow Voodoo Shaman",
+description: "يظهر لك افضل الابطال لصيد الكاهن فودو",
+usage: "-VoodooShaman",
 accessableby: "Members",
 aliases: ["voodooshaman","الكاهن" , "voodoo"]
 }

@@ -2,20 +2,23 @@ const Discord = require("discord.js")
 const botconfig = require("../botsettings.json");
 
 module.exports.run = async (bot, message, args) => {
-        message.channel.send('**Pong!**').then(msg => msg.delete({timeout: 5000}));
+      
+  
+  const msg = await message.channel.send('🏓 Pinging...').then(msg => msg.delete({timeout: 2000}));
 
-         if (message.author.bot) return;
-         setTimeout(() => {
-           
-           message.channel.send( new Date().getTime() - message.createdTimestamp - 1000 + "ms"
-           );
-         }, 1000);
-        }
+  const embed = new Discord.MessageEmbed()
+  .setColor(process.env.COLOR)
+  .setTitle('🏓 Pong!')
+  .setDescription(`Your ping is **${Math.floor(msg.createdTimestamp - message.createdTimestamp)} ms** \nBot ping is **${Math.round(bot.ws.ping)} ms**`);}
+
+  message.channel.send(embed);
+
+
 
 module.exports.config = {
     name: "ping",
-    description: "say ping",
-    usage: "?ping",
+    description: "يظهر لك تاخر الشبكه فالانترنت الخاص بك",
+    usage: "-ping",
     accessableby: "Members",
     aliases: []
 }

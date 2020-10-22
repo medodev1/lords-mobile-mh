@@ -18,8 +18,8 @@ message.channel.send(embed2);
 
 module.exports.config = {
 name: "howtouseArb",
-description: "say howa",
-usage: "?howa",
+description: "يساعد في كيفيه تشغيل البوت",
+usage: "-howa",
 accessableby: "Members",
 aliases: ["HTUA","htua"]
 }

@@ -4,18 +4,18 @@ const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('شوكة الرعب')
-.setDescription('To Defete Terrorthorn You Can Use AGI Heros')
+.setDescription('لهزيمه شوكه الرعب يجب استخدام ابطال البراعه')
 .setImage('https://a.top4top.io/p_1644keq7k1.png')
 .setFooter(`Requsted by ${message.author.username}`)
 .setColor(0xc81313)
-    message.channel.send(embed);
-
+let MessageEmbed = await message.channel.send(embed)
+MessageEmbed.react('✅')
 }
 
 module.exports.config = {
 name: "Terrorthorn",
-description: "say Terrorthorn",
-usage: "?Snow Terrorthorn",
+description: "يظهر لك افضل الابطال لصيد شوكه الرعب",
+usage: "-Terrorthorn",
 accessableby: "Members",
-aliases: ["terrorthorn","شوكه"]
+aliases: ["terrorthorn","شوكه","شوكة"]
 }
