@@ -46,5 +46,5 @@ module.exports.run = async (bot, message, args) => {
         description: "يساعدك في كيفيه استخدام الاوامر",
         usage: "-مساعده [اسم الوحش]",
         accessableby: "Members",
-        aliases: ['مساعده']
+        aliases: ['مساعده',"help"]
     }
