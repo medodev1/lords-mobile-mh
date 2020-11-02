@@ -19,5 +19,5 @@ name: "bonappeti",
 description: "يظهر لك افضل الابطال لصيد ساحره الشر",
 usage: "-BonAppeti",
 accessableby: "Members",
-aliases: ["BonAppeti","الساحره" , "الساحرة"]
+aliases: ["BonAppeti","الساحره" , "الساحرة" ,"ساحره","ساحرة"]
 }

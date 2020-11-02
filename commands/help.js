@@ -6,11 +6,12 @@ module.exports.run = async (bot, message, args) => {
     let helpArgs = helpArray.slice(1);
 
     if(!helpArgs[0]) {
-        var embed = new Discord.MessageEmbed()
+        var embed = new Discord.MessageEmbed() 
             .setAuthor(`الوحوش المتاحه في هذا البوت`)
             .setDescription('```ساحرة الشر | جناح الثلج | العملاق الاعور | حاصد الارواح | العنقاء | هاردروكس | عنكبوت الجحيم | البومة | تنين اليشم | حصان طرواده | الدوده العملاقه | نوسيروس | ملكه النحل | سبارفنغ | وحش الثلج | شوكة الرعب | العملاق تيدال | الكاهن فودو ```')
             .addFields({ name: 'علامه تشغيل البوت', value: '```-```', inline: true})
             .addFields({ name: 'اوامر اضافيه', value: '```ping | HTUA```', inline: true})
+            .addFields({name:'للتوجه لمركز تبدير الاكواد ', value: '```-تبديل```'})
             .setColor('#00FFF3')
             
             let MessageEmbed = await message.channel.send(embed)
