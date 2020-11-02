@@ -3,7 +3,7 @@ const botconfig = require("../botsettings.json")
 const attachment = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
-.setTitle('اضغط هنا للتوجه لمركز التبديل')
+.setTitle(' اضغط هنا للتوجه لمركز التبديل الاكواد')
 .setURL('http://lordsmobile.igg.com/gifts/?lang=arb')
 .setFooter(`بطلب من ${message.author.username}`)
 
