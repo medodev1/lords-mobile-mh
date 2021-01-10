@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('العملاق الاعور')
 .setDescription('لهزيمه العملاق اللاعور يجب استخدام ابطال الذكاء')
-.setImage('https://j.top4top.io/p_16610dv8j1.png')
+.setImage('https://l.top4top.io/p_1836zbo4e1.png')
 .setFooter(`بطلب من ${message.author.username}`)
 .setColor(0xff8400)
 
