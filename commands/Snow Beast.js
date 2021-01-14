@@ -17,5 +17,5 @@ name: "SnowBeast",
 description: "يظهر لك افضل الابطال لصيد وحش الثلج",
 usage: "-SnowBeast",
 accessableby: "Members",
-aliases: ["snowbeast","وحش-القلج"]
+aliases: ["snowbeast","وحش-الثلج"]
 }
