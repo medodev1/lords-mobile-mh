@@ -1,7 +1,6 @@
 const Discord = require("discord.js")
 const botconfig = require("../botsettings.json");
 module.exports.run = async (bot, message, args) => {
-  message.channel.send('ملاحظة : اذا كان اسم الوحش المراد صيده يتكون من مقطعين جرب استخادم المقطع الاول')
     let helpArray = message.content.split(" ");
     let helpArgs = helpArray.slice(1);
 
@@ -10,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
             .setAuthor(`الوحوش المتاحه في هذا البوت`)
             .setDescription('``` الكوخ المتوحش | ساحرة الشر | جناح الثلج | العملاق الاعور | حاصد الارواح | العنقاء | هاردروكس | عنكبوت الجحيم | البومة | تنين اليشم | حصان طرواده | الدوده العملاقه | نوسيروس | ملكه النحل | سابرفنغ | وحش الثلج | شوكة الرعب | العملاق تيدال | الكاهن فودو ```')
             .addFields({ name: 'اوامر اضافيه', value: '```ping```', inline: true})
-            .addFields({name:'للتوجه لمركز تبدير الاكواد ', value: '```-تبديل```'})
+            .addFields({name:'للتوجه لمركز تبدير الاكواد ', value: '```تبديل```'})
             .setColor('#00FFF3')
             
             let MessageEmbed = await message.channel.send(embed)
