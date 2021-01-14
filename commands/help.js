@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
         var embed = new Discord.MessageEmbed() 
             .setAuthor(`الوحوش المتاحه في هذا البوت`)
             .setDescription('``` الكوخ المتوحش | ساحرة الشر | جناح الثلج | العملاق الاعور | حاصد الارواح | العنقاء | هاردروكس | عنكبوت الجحيم | البومة | تنين اليشم | حصان طرواده | الدوده العملاقه | نوسيروس | ملكه النحل | سابرفنغ | وحش الثلج | شوكة الرعب | العملاق تيدال | الكاهن فودو ```')
-            .addFields({ name: 'اوامر اضافيه', value: '```ping | HTUA```', inline: true})
+            .addFields({ name: 'اوامر اضافيه', value: '```ping```', inline: true})
             .addFields({name:'للتوجه لمركز تبدير الاكواد ', value: '```-تبديل```'})
             .setColor('#00FFF3')
             
