@@ -17,5 +17,5 @@ name: "VoodooShaman",
 description: "يظهر لك افضل الابطال لصيد الكاهن فودو",
 usage: "-VoodooShaman",
 accessableby: "Members",
-aliases: ["voodooshaman","الكاهن" , "voodoo"]
+aliases: ["voodooshaman","الكاهن-فودو" , "voodoo"]
 }

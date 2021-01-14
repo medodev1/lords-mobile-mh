@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('حصان طرواده')
 .setDescription('لهزيمه حصان طرواده يجب عليك استخدام ابطال الذكاء')
-.setImage('https://g.top4top.io/p_1644rs1tq8.png')
+.setImage('https://h.top4top.io/p_1840tq6g83.png')
 .setFooter(`بطلب من ${message.author.username}`)
 .setColor(0xf4e10c)
 
@@ -19,5 +19,5 @@ name: "MechaTrojan",
 description: "يظهر لك افضل الابطال لصيد حصان طرواده",
 usage: "-MechaTrojan",
 accessableby: "Members",
-aliases: ["mechatrojan","حصان" , "طرواده"]
+aliases: ["mechatrojan","حصان-طرواده" , "طرواده"]
 }

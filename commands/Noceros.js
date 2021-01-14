@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('نوسيروس')
 .setDescription('لهزيمه نوسيروس يجب استخدام ابطال الذكاء')
-.setImage('https://l.top4top.io/p_1644trd051.jpg')
+.setImage('https://a.top4top.io/p_18407b5ul3.jpg')
 .setFooter(`بطلب من ${message.author.username}`)
 .setColor(0x19e9b6)
 

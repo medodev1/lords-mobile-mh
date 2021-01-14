@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('ساحرة الشر ')
 .setDescription('لهزيمه ساحره الشر يجب استخدام ابطال البراعه')
-.setImage('https://a.top4top.io/p_16447gxk62.png')
+.setImage('https://l.top4top.io/p_1840x40f72.png')
 .setFooter(`بطلب من ${message.author.username}`)
 .setColor(0x12ff00)
 
@@ -19,5 +19,5 @@ name: "bonappeti",
 description: "يظهر لك افضل الابطال لصيد ساحره الشر",
 usage: "-BonAppeti",
 accessableby: "Members",
-aliases: ["BonAppeti","الساحره" , "الساحرة" ,"ساحره","ساحرة"]
+aliases: ["BonAppeti","ساحرة-الشر" , "الساحرة" ,"ساحره","ساحرة"]
 }

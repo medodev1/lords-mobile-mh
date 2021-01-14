@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('جناح الثلج')
 .setDescription('لهزيمه جناح الثلج يجب استخدام ابطال البراعه')
-.setImage('https://b.top4top.io/p_1644qyv1b3.png')
+.setImage('https://f.top4top.io/p_1840q40oh1.png')
 .setFooter(`بطلب من ${message.author.username}`)
 .setColor(0x90a08e)
 
@@ -18,5 +18,5 @@ name: "Frostwing",
 description: "يظهر لك افضل الابطال لصيد جناح الثلج",
 usage: "-Frostwing",
 accessableby: "Members",
-aliases: ["frostwing","جناح"]
+aliases: ["frostwing","جناح-الثلج"]
 }

@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('العملاق تيدال')
 .setDescription('لهزيمه العملاق تيدال يجب استخدام ابطال الذكاء')
-.setImage('https://b.top4top.io/p_16440wasu2.png')
+.setImage('https://a.top4top.io/p_1840s9tcj8.png')
 .setFooter(`بطلب من ${message.author.username}`)
 .setColor(0x03e0e8)
 let MessageEmbed = await message.channel.send(embed)
@@ -17,5 +17,5 @@ name: "TidalTitan",
 description: "يظهر لك افضل الابطال لصيد العملاق تيدال",
 usage: "-TidalTitan",
 accessableby: "Members",
-aliases: ["tidaltitan" , "تيدال" , "tidal"]
+aliases: ["tidaltitan" , "العملاق-تيدال" , "tidal"]
 }
