@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setTitle('جناح الثلج')
 .setDescription('لهزيمه جناح الثلج يجب استخدام ابطال البراعه')
-.setImage('https://f.top4top.io/p_1840q40oh1.png')
+.setImage('https://e.top4top.io/p_18473p0ov1.pngss')
 .setFooter(`بطلب من ${message.author.username}`)
 .setColor(0x90a08e)
 
